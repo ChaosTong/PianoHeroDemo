@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  PianoHero
 //
-//  Created by slaver on 2023/7/7.
+//  Created by ChaosTong on 2023/7/7.
 //
 
 import UIKit

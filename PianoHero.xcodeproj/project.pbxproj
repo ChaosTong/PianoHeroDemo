@@ -7,15 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B34F6BD2A57F02200CBEF78 /* beethoven_rondo_a_capriccio_op_129_smythe.mid in Resources */ = {isa = PBXBuildFile; fileRef = 9B34F6BC2A57F02200CBEF78 /* beethoven_rondo_a_capriccio_op_129_smythe.mid */; };
 		9B7F40262A57DFFF00B4D6F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F40252A57DFFF00B4D6F1 /* AppDelegate.swift */; };
 		9B7F40282A57DFFF00B4D6F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F40272A57DFFF00B4D6F1 /* SceneDelegate.swift */; };
 		9B7F402A2A57DFFF00B4D6F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F40292A57DFFF00B4D6F1 /* ViewController.swift */; };
 		9B7F402D2A57DFFF00B4D6F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B7F402B2A57DFFF00B4D6F1 /* Main.storyboard */; };
 		9B7F402F2A57E00000B4D6F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B7F402E2A57E00000B4D6F1 /* Assets.xcassets */; };
 		9B7F40322A57E00000B4D6F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B7F40302A57E00000B4D6F1 /* LaunchScreen.storyboard */; };
+		9B7F403A2A57E04700B4D6F1 /* VC_Midi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F40392A57E04700B4D6F1 /* VC_Midi.swift */; };
+		9B7F40422A57E26600B4D6F1 /* PianoKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F40402A57E26600B4D6F1 /* PianoKey.swift */; };
+		9B7F40432A57E26600B4D6F1 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F40412A57E26600B4D6F1 /* Keyboard.swift */; };
+		9B7F40452A57E29700B4D6F1 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F40442A57E29700B4D6F1 /* Extension.swift */; };
+		9B7F40472A57E7A200B4D6F1 /* AudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F40462A57E7A200B4D6F1 /* AudioEngine.swift */; };
+		9B7F40742A57E7F300B4D6F1 /* MidiTempoTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F404A2A57E7F300B4D6F1 /* MidiTempoTrack.swift */; };
+		9B7F40752A57E7F300B4D6F1 /* SequenceTrackProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F404B2A57E7F300B4D6F1 /* SequenceTrackProperty.swift */; };
+		9B7F40762A57E7F300B4D6F1 /* MidiTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F404C2A57E7F300B4D6F1 /* MidiTrack.swift */; };
+		9B7F40772A57E7F300B4D6F1 /* MidiNoteTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F404D2A57E7F300B4D6F1 /* MidiNoteTrack.swift */; };
+		9B7F40782A57E7F300B4D6F1 /* Ticks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F404F2A57E7F300B4D6F1 /* Ticks.swift */; };
+		9B7F40792A57E7F300B4D6F1 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F40502A57E7F300B4D6F1 /* Util.swift */; };
+		9B7F407A2A57E7F300B4D6F1 /* Byte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F40512A57E7F300B4D6F1 /* Byte.swift */; };
+		9B7F407B2A57E7F300B4D6F1 /* MidiPatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F40532A57E7F300B4D6F1 /* MidiPatch.swift */; };
+		9B7F407C2A57E7F300B4D6F1 /* GMPatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F40542A57E7F300B4D6F1 /* GMPatch.swift */; };
+		9B7F407D2A57E7F300B4D6F1 /* PatchFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F40552A57E7F300B4D6F1 /* PatchFamily.swift */; };
+		9B7F407E2A57E7F300B4D6F1 /* MidiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F40572A57E7F300B4D6F1 /* MidiData.swift */; };
+		9B7F407F2A57E7F300B4D6F1 /* HeaderChunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F40582A57E7F300B4D6F1 /* HeaderChunk.swift */; };
+		9B7F40802A57E7F300B4D6F1 /* MidiInfoKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F40592A57E7F300B4D6F1 /* MidiInfoKey.swift */; };
+		9B7F40812A57E7F300B4D6F1 /* EventIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F405A2A57E7F300B4D6F1 /* EventIterator.swift */; };
+		9B7F40822A57E7F300B4D6F1 /* MidiSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F405B2A57E7F300B4D6F1 /* MidiSequence.swift */; };
+		9B7F40832A57E7F300B4D6F1 /* MidiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F405D2A57E7F300B4D6F1 /* MidiError.swift */; };
+		9B7F40842A57E7F300B4D6F1 /* MidiExtendedNoteOnEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F405F2A57E7F300B4D6F1 /* MidiExtendedNoteOnEvent.swift */; };
+		9B7F40852A57E7F300B4D6F1 /* MidiAUPresetEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F40602A57E7F300B4D6F1 /* MidiAUPresetEvent.swift */; };
+		9B7F40862A57E7F300B4D6F1 /* MidiChannelMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F40612A57E7F300B4D6F1 /* MidiChannelMessage.swift */; };
+		9B7F40872A57E7F300B4D6F1 /* EventProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F40622A57E7F300B4D6F1 /* EventProtocol.swift */; };
+		9B7F40882A57E7F300B4D6F1 /* MidiRawData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F40632A57E7F300B4D6F1 /* MidiRawData.swift */; };
+		9B7F40892A57E7F300B4D6F1 /* MidiParameterEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F40642A57E7F300B4D6F1 /* MidiParameterEvent.swift */; };
+		9B7F408A2A57E7F300B4D6F1 /* EventInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F40652A57E7F300B4D6F1 /* EventInfo.swift */; };
+		9B7F408B2A57E7F300B4D6F1 /* MidiTimeSignature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F40672A57E7F300B4D6F1 /* MidiTimeSignature.swift */; };
+		9B7F408C2A57E7F300B4D6F1 /* MidiTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F40682A57E7F300B4D6F1 /* MidiTime.swift */; };
+		9B7F408D2A57E7F300B4D6F1 /* MetaEventProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F40692A57E7F300B4D6F1 /* MetaEventProtocol.swift */; };
+		9B7F408E2A57E7F300B4D6F1 /* MetaEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F406A2A57E7F300B4D6F1 /* MetaEvent.swift */; };
+		9B7F408F2A57E7F300B4D6F1 /* MidiLyric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F406B2A57E7F300B4D6F1 /* MidiLyric.swift */; };
+		9B7F40902A57E7F300B4D6F1 /* MetaEventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F406C2A57E7F300B4D6F1 /* MetaEventType.swift */; };
+		9B7F40912A57E7F300B4D6F1 /* MidiKeySignature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F406E2A57E7F300B4D6F1 /* MidiKeySignature.swift */; };
+		9B7F40922A57E7F300B4D6F1 /* KeySignature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F406F2A57E7F300B4D6F1 /* KeySignature.swift */; };
+		9B7F40932A57E7F300B4D6F1 /* MidiNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F40702A57E7F300B4D6F1 /* MidiNote.swift */; };
+		9B7F40942A57E7F300B4D6F1 /* MidiEventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F40712A57E7F300B4D6F1 /* MidiEventType.swift */; };
+		9B7F40952A57E7F300B4D6F1 /* MidiEventUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F40722A57E7F300B4D6F1 /* MidiEventUserData.swift */; };
+		9B7F40962A57E7F300B4D6F1 /* MidiExtendedTempo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F40732A57E7F300B4D6F1 /* MidiExtendedTempo.swift */; };
+		9B7F409B2A57EBC600B4D6F1 /* Fur Elise.mid in Resources */ = {isa = PBXBuildFile; fileRef = 9B7F40992A57EBC600B4D6F1 /* Fur Elise.mid */; };
+		9B7F409C2A57EBC600B4D6F1 /* Turkish March.mid in Resources */ = {isa = PBXBuildFile; fileRef = 9B7F409A2A57EBC600B4D6F1 /* Turkish March.mid */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B34F6BC2A57F02200CBEF78 /* beethoven_rondo_a_capriccio_op_129_smythe.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = beethoven_rondo_a_capriccio_op_129_smythe.mid; sourceTree = "<group>"; };
 		9B7F40222A57DFFF00B4D6F1 /* PianoHero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PianoHero.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B7F40252A57DFFF00B4D6F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B7F40272A57DFFF00B4D6F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +68,48 @@
 		9B7F402E2A57E00000B4D6F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B7F40312A57E00000B4D6F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B7F40332A57E00000B4D6F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B7F40392A57E04700B4D6F1 /* VC_Midi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_Midi.swift; sourceTree = "<group>"; };
+		9B7F40402A57E26600B4D6F1 /* PianoKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PianoKey.swift; sourceTree = "<group>"; };
+		9B7F40412A57E26600B4D6F1 /* Keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
+		9B7F40442A57E29700B4D6F1 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		9B7F40462A57E7A200B4D6F1 /* AudioEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEngine.swift; sourceTree = "<group>"; };
+		9B7F404A2A57E7F300B4D6F1 /* MidiTempoTrack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiTempoTrack.swift; sourceTree = "<group>"; };
+		9B7F404B2A57E7F300B4D6F1 /* SequenceTrackProperty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SequenceTrackProperty.swift; sourceTree = "<group>"; };
+		9B7F404C2A57E7F300B4D6F1 /* MidiTrack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiTrack.swift; sourceTree = "<group>"; };
+		9B7F404D2A57E7F300B4D6F1 /* MidiNoteTrack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiNoteTrack.swift; sourceTree = "<group>"; };
+		9B7F404F2A57E7F300B4D6F1 /* Ticks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ticks.swift; sourceTree = "<group>"; };
+		9B7F40502A57E7F300B4D6F1 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		9B7F40512A57E7F300B4D6F1 /* Byte.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Byte.swift; sourceTree = "<group>"; };
+		9B7F40532A57E7F300B4D6F1 /* MidiPatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiPatch.swift; sourceTree = "<group>"; };
+		9B7F40542A57E7F300B4D6F1 /* GMPatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMPatch.swift; sourceTree = "<group>"; };
+		9B7F40552A57E7F300B4D6F1 /* PatchFamily.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatchFamily.swift; sourceTree = "<group>"; };
+		9B7F40572A57E7F300B4D6F1 /* MidiData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiData.swift; sourceTree = "<group>"; };
+		9B7F40582A57E7F300B4D6F1 /* HeaderChunk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderChunk.swift; sourceTree = "<group>"; };
+		9B7F40592A57E7F300B4D6F1 /* MidiInfoKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiInfoKey.swift; sourceTree = "<group>"; };
+		9B7F405A2A57E7F300B4D6F1 /* EventIterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventIterator.swift; sourceTree = "<group>"; };
+		9B7F405B2A57E7F300B4D6F1 /* MidiSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiSequence.swift; sourceTree = "<group>"; };
+		9B7F405D2A57E7F300B4D6F1 /* MidiError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiError.swift; sourceTree = "<group>"; };
+		9B7F405F2A57E7F300B4D6F1 /* MidiExtendedNoteOnEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiExtendedNoteOnEvent.swift; sourceTree = "<group>"; };
+		9B7F40602A57E7F300B4D6F1 /* MidiAUPresetEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiAUPresetEvent.swift; sourceTree = "<group>"; };
+		9B7F40612A57E7F300B4D6F1 /* MidiChannelMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiChannelMessage.swift; sourceTree = "<group>"; };
+		9B7F40622A57E7F300B4D6F1 /* EventProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventProtocol.swift; sourceTree = "<group>"; };
+		9B7F40632A57E7F300B4D6F1 /* MidiRawData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiRawData.swift; sourceTree = "<group>"; };
+		9B7F40642A57E7F300B4D6F1 /* MidiParameterEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiParameterEvent.swift; sourceTree = "<group>"; };
+		9B7F40652A57E7F300B4D6F1 /* EventInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventInfo.swift; sourceTree = "<group>"; };
+		9B7F40672A57E7F300B4D6F1 /* MidiTimeSignature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiTimeSignature.swift; sourceTree = "<group>"; };
+		9B7F40682A57E7F300B4D6F1 /* MidiTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiTime.swift; sourceTree = "<group>"; };
+		9B7F40692A57E7F300B4D6F1 /* MetaEventProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaEventProtocol.swift; sourceTree = "<group>"; };
+		9B7F406A2A57E7F300B4D6F1 /* MetaEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaEvent.swift; sourceTree = "<group>"; };
+		9B7F406B2A57E7F300B4D6F1 /* MidiLyric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiLyric.swift; sourceTree = "<group>"; };
+		9B7F406C2A57E7F300B4D6F1 /* MetaEventType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaEventType.swift; sourceTree = "<group>"; };
+		9B7F406E2A57E7F300B4D6F1 /* MidiKeySignature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiKeySignature.swift; sourceTree = "<group>"; };
+		9B7F406F2A57E7F300B4D6F1 /* KeySignature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeySignature.swift; sourceTree = "<group>"; };
+		9B7F40702A57E7F300B4D6F1 /* MidiNote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiNote.swift; sourceTree = "<group>"; };
+		9B7F40712A57E7F300B4D6F1 /* MidiEventType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiEventType.swift; sourceTree = "<group>"; };
+		9B7F40722A57E7F300B4D6F1 /* MidiEventUserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiEventUserData.swift; sourceTree = "<group>"; };
+		9B7F40732A57E7F300B4D6F1 /* MidiExtendedTempo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiExtendedTempo.swift; sourceTree = "<group>"; };
+		9B7F40992A57EBC600B4D6F1 /* Fur Elise.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Fur Elise.mid"; sourceTree = "<group>"; };
+		9B7F409A2A57EBC600B4D6F1 /* Turkish March.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Turkish March.mid"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +142,146 @@
 		9B7F40242A57DFFF00B4D6F1 /* PianoHero */ = {
 			isa = PBXGroup;
 			children = (
+				9B7F40972A57EBA600B4D6F1 /* mids */,
+				9B7F40482A57E7F300B4D6F1 /* MIDI */,
+				9B7F403F2A57E26600B4D6F1 /* PianoKeyboard */,
 				9B7F40252A57DFFF00B4D6F1 /* AppDelegate.swift */,
 				9B7F40272A57DFFF00B4D6F1 /* SceneDelegate.swift */,
 				9B7F40292A57DFFF00B4D6F1 /* ViewController.swift */,
+				9B7F40392A57E04700B4D6F1 /* VC_Midi.swift */,
+				9B7F40462A57E7A200B4D6F1 /* AudioEngine.swift */,
+				9B7F40442A57E29700B4D6F1 /* Extension.swift */,
 				9B7F402B2A57DFFF00B4D6F1 /* Main.storyboard */,
 				9B7F402E2A57E00000B4D6F1 /* Assets.xcassets */,
 				9B7F40302A57E00000B4D6F1 /* LaunchScreen.storyboard */,
 				9B7F40332A57E00000B4D6F1 /* Info.plist */,
 			);
 			path = PianoHero;
+			sourceTree = "<group>";
+		};
+		9B7F403F2A57E26600B4D6F1 /* PianoKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				9B7F40402A57E26600B4D6F1 /* PianoKey.swift */,
+				9B7F40412A57E26600B4D6F1 /* Keyboard.swift */,
+			);
+			path = PianoKeyboard;
+			sourceTree = "<group>";
+		};
+		9B7F40482A57E7F300B4D6F1 /* MIDI */ = {
+			isa = PBXGroup;
+			children = (
+				9B7F40492A57E7F300B4D6F1 /* MidiTrack */,
+				9B7F404E2A57E7F300B4D6F1 /* Util */,
+				9B7F40522A57E7F300B4D6F1 /* Instrument */,
+				9B7F40562A57E7F300B4D6F1 /* MidiData */,
+				9B7F405C2A57E7F300B4D6F1 /* Error */,
+				9B7F405E2A57E7F300B4D6F1 /* MidiEvent */,
+			);
+			path = MIDI;
+			sourceTree = "<group>";
+		};
+		9B7F40492A57E7F300B4D6F1 /* MidiTrack */ = {
+			isa = PBXGroup;
+			children = (
+				9B7F404A2A57E7F300B4D6F1 /* MidiTempoTrack.swift */,
+				9B7F404B2A57E7F300B4D6F1 /* SequenceTrackProperty.swift */,
+				9B7F404C2A57E7F300B4D6F1 /* MidiTrack.swift */,
+				9B7F404D2A57E7F300B4D6F1 /* MidiNoteTrack.swift */,
+			);
+			path = MidiTrack;
+			sourceTree = "<group>";
+		};
+		9B7F404E2A57E7F300B4D6F1 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				9B7F404F2A57E7F300B4D6F1 /* Ticks.swift */,
+				9B7F40502A57E7F300B4D6F1 /* Util.swift */,
+				9B7F40512A57E7F300B4D6F1 /* Byte.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		9B7F40522A57E7F300B4D6F1 /* Instrument */ = {
+			isa = PBXGroup;
+			children = (
+				9B7F40532A57E7F300B4D6F1 /* MidiPatch.swift */,
+				9B7F40542A57E7F300B4D6F1 /* GMPatch.swift */,
+				9B7F40552A57E7F300B4D6F1 /* PatchFamily.swift */,
+			);
+			path = Instrument;
+			sourceTree = "<group>";
+		};
+		9B7F40562A57E7F300B4D6F1 /* MidiData */ = {
+			isa = PBXGroup;
+			children = (
+				9B7F40572A57E7F300B4D6F1 /* MidiData.swift */,
+				9B7F40582A57E7F300B4D6F1 /* HeaderChunk.swift */,
+				9B7F40592A57E7F300B4D6F1 /* MidiInfoKey.swift */,
+				9B7F405A2A57E7F300B4D6F1 /* EventIterator.swift */,
+				9B7F405B2A57E7F300B4D6F1 /* MidiSequence.swift */,
+			);
+			path = MidiData;
+			sourceTree = "<group>";
+		};
+		9B7F405C2A57E7F300B4D6F1 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				9B7F405D2A57E7F300B4D6F1 /* MidiError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		9B7F405E2A57E7F300B4D6F1 /* MidiEvent */ = {
+			isa = PBXGroup;
+			children = (
+				9B7F405F2A57E7F300B4D6F1 /* MidiExtendedNoteOnEvent.swift */,
+				9B7F40602A57E7F300B4D6F1 /* MidiAUPresetEvent.swift */,
+				9B7F40612A57E7F300B4D6F1 /* MidiChannelMessage.swift */,
+				9B7F40622A57E7F300B4D6F1 /* EventProtocol.swift */,
+				9B7F40632A57E7F300B4D6F1 /* MidiRawData.swift */,
+				9B7F40642A57E7F300B4D6F1 /* MidiParameterEvent.swift */,
+				9B7F40652A57E7F300B4D6F1 /* EventInfo.swift */,
+				9B7F40662A57E7F300B4D6F1 /* Meta */,
+				9B7F40702A57E7F300B4D6F1 /* MidiNote.swift */,
+				9B7F40712A57E7F300B4D6F1 /* MidiEventType.swift */,
+				9B7F40722A57E7F300B4D6F1 /* MidiEventUserData.swift */,
+				9B7F40732A57E7F300B4D6F1 /* MidiExtendedTempo.swift */,
+			);
+			path = MidiEvent;
+			sourceTree = "<group>";
+		};
+		9B7F40662A57E7F300B4D6F1 /* Meta */ = {
+			isa = PBXGroup;
+			children = (
+				9B7F40672A57E7F300B4D6F1 /* MidiTimeSignature.swift */,
+				9B7F40682A57E7F300B4D6F1 /* MidiTime.swift */,
+				9B7F40692A57E7F300B4D6F1 /* MetaEventProtocol.swift */,
+				9B7F406A2A57E7F300B4D6F1 /* MetaEvent.swift */,
+				9B7F406B2A57E7F300B4D6F1 /* MidiLyric.swift */,
+				9B7F406C2A57E7F300B4D6F1 /* MetaEventType.swift */,
+				9B7F406D2A57E7F300B4D6F1 /* KeySignature */,
+			);
+			path = Meta;
+			sourceTree = "<group>";
+		};
+		9B7F406D2A57E7F300B4D6F1 /* KeySignature */ = {
+			isa = PBXGroup;
+			children = (
+				9B7F406E2A57E7F300B4D6F1 /* MidiKeySignature.swift */,
+				9B7F406F2A57E7F300B4D6F1 /* KeySignature.swift */,
+			);
+			path = KeySignature;
+			sourceTree = "<group>";
+		};
+		9B7F40972A57EBA600B4D6F1 /* mids */ = {
+			isa = PBXGroup;
+			children = (
+				9B7F40992A57EBC600B4D6F1 /* Fur Elise.mid */,
+				9B7F409A2A57EBC600B4D6F1 /* Turkish March.mid */,
+				9B34F6BC2A57F02200CBEF78 /* beethoven_rondo_a_capriccio_op_129_smythe.mid */,
+			);
+			path = mids;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +342,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B7F409B2A57EBC600B4D6F1 /* Fur Elise.mid in Resources */,
 				9B7F40322A57E00000B4D6F1 /* LaunchScreen.storyboard in Resources */,
 				9B7F402F2A57E00000B4D6F1 /* Assets.xcassets in Resources */,
 				9B7F402D2A57DFFF00B4D6F1 /* Main.storyboard in Resources */,
+				9B34F6BD2A57F02200CBEF78 /* beethoven_rondo_a_capriccio_op_129_smythe.mid in Resources */,
+				9B7F409C2A57EBC600B4D6F1 /* Turkish March.mid in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +358,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B7F40422A57E26600B4D6F1 /* PianoKey.swift in Sources */,
+				9B7F40782A57E7F300B4D6F1 /* Ticks.swift in Sources */,
+				9B7F40932A57E7F300B4D6F1 /* MidiNote.swift in Sources */,
+				9B7F40762A57E7F300B4D6F1 /* MidiTrack.swift in Sources */,
 				9B7F402A2A57DFFF00B4D6F1 /* ViewController.swift in Sources */,
+				9B7F40862A57E7F300B4D6F1 /* MidiChannelMessage.swift in Sources */,
+				9B7F40452A57E29700B4D6F1 /* Extension.swift in Sources */,
+				9B7F40752A57E7F300B4D6F1 /* SequenceTrackProperty.swift in Sources */,
+				9B7F40822A57E7F300B4D6F1 /* MidiSequence.swift in Sources */,
 				9B7F40262A57DFFF00B4D6F1 /* AppDelegate.swift in Sources */,
+				9B7F40472A57E7A200B4D6F1 /* AudioEngine.swift in Sources */,
+				9B7F40802A57E7F300B4D6F1 /* MidiInfoKey.swift in Sources */,
+				9B7F407C2A57E7F300B4D6F1 /* GMPatch.swift in Sources */,
+				9B7F408F2A57E7F300B4D6F1 /* MidiLyric.swift in Sources */,
+				9B7F408C2A57E7F300B4D6F1 /* MidiTime.swift in Sources */,
+				9B7F407E2A57E7F300B4D6F1 /* MidiData.swift in Sources */,
 				9B7F40282A57DFFF00B4D6F1 /* SceneDelegate.swift in Sources */,
+				9B7F40942A57E7F300B4D6F1 /* MidiEventType.swift in Sources */,
+				9B7F407D2A57E7F300B4D6F1 /* PatchFamily.swift in Sources */,
+				9B7F40852A57E7F300B4D6F1 /* MidiAUPresetEvent.swift in Sources */,
+				9B7F40842A57E7F300B4D6F1 /* MidiExtendedNoteOnEvent.swift in Sources */,
+				9B7F408E2A57E7F300B4D6F1 /* MetaEvent.swift in Sources */,
+				9B7F40892A57E7F300B4D6F1 /* MidiParameterEvent.swift in Sources */,
+				9B7F407A2A57E7F300B4D6F1 /* Byte.swift in Sources */,
+				9B7F40952A57E7F300B4D6F1 /* MidiEventUserData.swift in Sources */,
+				9B7F40832A57E7F300B4D6F1 /* MidiError.swift in Sources */,
+				9B7F40912A57E7F300B4D6F1 /* MidiKeySignature.swift in Sources */,
+				9B7F40772A57E7F300B4D6F1 /* MidiNoteTrack.swift in Sources */,
+				9B7F40432A57E26600B4D6F1 /* Keyboard.swift in Sources */,
+				9B7F408D2A57E7F300B4D6F1 /* MetaEventProtocol.swift in Sources */,
+				9B7F408B2A57E7F300B4D6F1 /* MidiTimeSignature.swift in Sources */,
+				9B7F40792A57E7F300B4D6F1 /* Util.swift in Sources */,
+				9B7F40882A57E7F300B4D6F1 /* MidiRawData.swift in Sources */,
+				9B7F408A2A57E7F300B4D6F1 /* EventInfo.swift in Sources */,
+				9B7F40922A57E7F300B4D6F1 /* KeySignature.swift in Sources */,
+				9B7F40872A57E7F300B4D6F1 /* EventProtocol.swift in Sources */,
+				9B7F407B2A57E7F300B4D6F1 /* MidiPatch.swift in Sources */,
+				9B7F40812A57E7F300B4D6F1 /* EventIterator.swift in Sources */,
+				9B7F40742A57E7F300B4D6F1 /* MidiTempoTrack.swift in Sources */,
+				9B7F40962A57E7F300B4D6F1 /* MidiExtendedTempo.swift in Sources */,
+				9B7F407F2A57E7F300B4D6F1 /* HeaderChunk.swift in Sources */,
+				9B7F40902A57E7F300B4D6F1 /* MetaEventType.swift in Sources */,
+				9B7F403A2A57E04700B4D6F1 /* VC_Midi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +547,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PianoHero/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -294,6 +555,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,6 +576,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PianoHero/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -321,6 +584,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
